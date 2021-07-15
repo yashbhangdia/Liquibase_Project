@@ -1,6 +1,6 @@
 --liquibase formatted sql
---changeset Yash:STY_3
-CREATE TABLE testTable(
+--changeset Yash:STY_8
+CREATE TABLE STY(
   Column1 VARCHAR (355)
 );
 --rollback DROP TABLE
