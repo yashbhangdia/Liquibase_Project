@@ -1,5 +1,5 @@
 --liquibase formatted sql
---changeset Yash:STY_8
+--changeset Yash:STY_3
 CREATE TABLE testTable(
   Column1 VARCHAR (355)
 );
