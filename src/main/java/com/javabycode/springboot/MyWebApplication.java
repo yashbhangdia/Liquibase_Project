@@ -33,13 +33,14 @@ public class MyWebApplication extends SpringBootServletInitializer{
                {
                    flag=1;
                    System.setProperty("server.address", addr.getAddress().toString().substring(1));
+                   System.out.println(addr.getAddress().toString());
                    break;
                }
-                if(flag==1)
-                {
-                    break;
-                }
             } 
+            if(flag==1)
+            {
+                break;
+            }
         }
         
         SpringApplication.run(MyWebApplication.class, args);
