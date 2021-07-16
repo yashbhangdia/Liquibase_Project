@@ -86,8 +86,9 @@
                         <configuration>
                                 <propertyFile>src/main/resources/liquibase.properties</propertyFile>
                                 <changeLogFile>src/main/resources/changelog_1.0.sql</changeLogFile>
+				<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
                         </configuration>
-			    <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
+			    
                     </plugin>
         </plugins>
     </build>
