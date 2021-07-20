@@ -1,6 +1,6 @@
 --liquibase formatted sql
---changeset YashB:10
-CREATE TABLE STY_table(
+--changeset YashB:11
+CREATE TABLE LiquibaseCICD(
   Column1 VARCHAR (355)
 );
 --rollback DROP TABLE
