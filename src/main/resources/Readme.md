@@ -1,5 +1,5 @@
-# Spring Boot Application 1
-> This is a demo application made for CI/CD Pipeline implementation and healthchecks
+# Liquibase Demo Application
+> This is a demo application made for CI/CD Pipeline implementation and automating database changes using liquibase.
 <!-- > Live demo [_here_](https://www.example.com). If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
