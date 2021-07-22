@@ -34,7 +34,7 @@ For Running service:
 
 
 For deploying changes to database using liquibase:
-`liquibase --driver=com.mysql.cj.jdbc.Driver --classpath="{path to mysql-connector-java directory}\\mysql-connector-java-8.0.24.jar" --url="jdbc:mysql://{path to database}" --changeLogFile="\db.changelog-1.0.0.xml" --username=root Update`
+`mvn liquibase:update`
 
 
 
