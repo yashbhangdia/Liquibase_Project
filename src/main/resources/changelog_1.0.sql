@@ -3,9 +3,5 @@
 CREATE TABLE LiquibaseCICD(
   Column1 VARCHAR (355)
 );
---changeset Prasad:111
-CREATE TABLE LiquibaseCICD(
-  Column1 VARCHAR (355)
-);
 --rollback DROP TABLE
 --rollback testTable
